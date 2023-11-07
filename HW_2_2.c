@@ -3,9 +3,11 @@ int main()
 	{
 int n , m;
 printf("n = ?\n");
-printf("m = ?\n");
+
 scanf("&d", n);
+printf("m = ?\n");
 scanf("&d", m);
+
 if(n > m )
 	{
 printf("%d", m);
